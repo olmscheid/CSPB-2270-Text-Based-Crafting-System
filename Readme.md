@@ -5,6 +5,8 @@ Crafting System Project v 1.0
 This project implements a simple crafting system using a Trie (prefix tree) data structure. 
 The system allows users to add recipes, manage inventory, and craft items. 
 
+Video Tutorial: https://drive.google.com/file/d/14tZSmHg0ZFNxF__9lyi7wmhuqdyWq1qA/view?usp=drive_link
+
 ## Deviations from my Project Proposal
 
 In my original project proposal, I presented the Trie and Directed Acyclic Graph as two seperate
