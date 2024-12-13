@@ -7,7 +7,8 @@ using namespace std;
 int main() {
     CraftingSystem craftingSystem; 
 
-    // Preload
+    // Here I preloaded the "recipes" that we can make
+
     craftingSystem.addRecipe("Potion", { {"Herbs", 2}, {"Water", 1} }, 2, "Alchemy Table");
     craftingSystem.addRecipe("Phoenix Down", { {"Feather", 1}, {"Magic Dust", 1} }, 4, "Enchanted Workbench");
     craftingSystem.addRecipe("Iron Sword", { {"Iron Ingot", 2}, {"Wood", 1} }, 5, "Forge");
@@ -20,7 +21,8 @@ int main() {
     craftingSystem.addRecipe("Ice Sword", { {"Ice Crystal", 1}, {"Iron Ingot", 1} }, 8, "Forge");
     craftingSystem.addRecipe("Wind Harp", { {"Wind Crystal", 1}, {"Wood", 2} }, 9, "Alchemy Table");
 
-    // Preload inventory
+    // Preload inventory for user
+    
     craftingSystem.addInventoryItem("Herbs", 5);
     craftingSystem.addInventoryItem("Water", 2);
     craftingSystem.addInventoryItem("Feather", 1);

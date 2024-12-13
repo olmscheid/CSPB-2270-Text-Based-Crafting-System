@@ -21,7 +21,7 @@ Also, I'm an idiot that was thinking that DAG was a completely separate thing wi
 a prefix tree (trie) is a type of DAG. "All trees are DAGs but not all DAGs are Trees". I think?
 
 
-References:
+## References
 
 https://www.learncpp.com/
 
@@ -66,6 +66,7 @@ Trie.cpp - Implements methods for inserting words, inserting recipes, searching 
 recipes, retrieving all recipes, and displaying the trie.
  
 TRIENODES
+
 TrieNode.h - Declares the TrieNode class, which represents a node in the trie. Includes 
 the RecipeData struct, which stores information about a recipe, including ingredients, 
 crafting time, and the tool required.
