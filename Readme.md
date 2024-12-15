@@ -17,8 +17,8 @@ I decided against this approach because I realized that if I'm crafting somethin
 generally there isn't a need for wood before iron or iron before wood if it's just required to
 have a particular set of items to create something.
 
-Also, I'm an idiot that was thinking that DAG was a completely separate thing without remembering that
-a prefix tree (trie) is a type of DAG. "All trees are DAGs but not all DAGs are Trees". I think?
+Also, I was initially thinking that DAG was a completely separate thing without remembering that
+a prefix tree (trie) is a type of DAG. "All trees are DAGs but not all DAGs are Trees".
 
 
 ## References
